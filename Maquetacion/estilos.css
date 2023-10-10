@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: rgb(233, 173, 183);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+.tarjeta{
+    width: 250px;
+    border: 5px dotted blueviolet;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+.boton-tarjeta{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(137, 43, 226, 0.444);
+    color: blanchedalmond;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+nav{
+    background-color: rgb(148, 84, 94) ;
+    padding: 20px;
+    color: black;
+}

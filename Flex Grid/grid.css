@@ -1,0 +1,47 @@
+.Padre{
+    background-color: rgba(254, 14, 246, 0.792);
+    display: grid;
+   /*Alternativa grid-template-columns: repeat(4,300px);*/
+    grid-template-columns: 300px 300px 300px 300px ;
+    gap: 15px;
+    grid-template-rows: repeat(2,250px);
+    grid-template-areas:
+    " elemento2 " 
+    "elemento3" 
+    "benja" 
+    "elemento4";
+}
+
+.Hijo{
+background-color: pink;
+border: 5px dotted black;
+}
+
+*{
+    font-weight: 400px;
+}
+
+.elemento1{
+    background-color: violet;
+    grid-column: 1/3 ;
+    grid-row: 1/4;
+    grid-area: benja;
+}
+
+.alinear{
+   display: flex;
+   /*flex-direction: column*/;
+   align-items:center ; 
+}
+
+.elemento2{
+    grid-area: elemento2;
+}
+
+.elemento3{
+    grid-area: elemento3;
+}
+
+.elemento4{
+    grid-area: elemento4;
+}

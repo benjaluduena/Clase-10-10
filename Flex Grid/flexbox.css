@@ -1,0 +1,30 @@
+*{
+    font-size: 20px;
+}
+.Padre{
+background-color: rgb(56, 11, 239);
+height: 800px;
+display: flex;
+/*Despues seleccionamos en que direccion se comporta la propiedad Flex*/
+flex-direction: row;
+/*Justificar el contenido*/
+justify-content: center;
+/*Alineamiento de los objetos*/
+align-items: center;
+/*Distancia entre los elementos*/
+gap: 30px;
+/*Definir el tamaño de los hijos */
+flex-wrap: wrap;
+}
+.Hijo{
+    background-color: rgb(251, 255, 0);
+    border: 2px solid black;
+    width: 200px;   
+    height: 200px;
+    margin: 20px;
+}
+
+.elemento-3{
+    align-content: center;
+    background-color: darkred;
+}
